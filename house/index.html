@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>House Description</title>
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/grid.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="js/modernizr.custom.js"></script>
+		<style type="text/css">
+			.sixteen.wide.column.type{
+				padding: 0;
+				padding-bottom: 5px;
+				padding-top: 5px;
+			}
+			.rev{
+				margin-top: 35px;
+				margin-bottom: 30px;
+			}
+			#map-canvas{
+				width: 70%;
+				height: 500px;
+				min-height: 300px;
+				margin: auto;
+			}
+		</style>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script>
+	      function initialize() {
+	        var mapCanvas = document.getElementById('map-canvas');
+	        var mapOptions = {
+	          center: new google.maps.LatLng(44.5403, -78.5463),
+	          zoom: 8,
+	          mapTypeId: google.maps.MapTypeId.ROADMAP
+	        }
+	        var map = new google.maps.Map(mapCanvas, mapOptions)
+	      }
+	      google.maps.event.addDomListener(window, 'load', initialize);
+	    </script>
+	</head>
+	<body>
+		<div class="container">	
+			<div class="top-bar">
+				<span class="top_icons left"><a href="">logo</a></span>
+				<span class="top_icons left"><a href="">search bar</a></span>
+				<span class="top_icons left"><a href="">browse</a></span>
+				<span class="top_icons right" style="margin-top:0.65%"><button><a href="">List your space</a></button></span>
+				<span class="top_icons right"><a href="">login</a></span>
+				<span class="top_icons right"><a href="">Help</a></span>
+				<span class="top_icons right"><a href="">signup</a></span>
+			</div>
+			<div class="cbp-fwslider cbp-fwslider1" style="top:50px">
+				<ul>
+					<li><a href="#"><img src="images/1.jpg" alt="img01"/></a></li>
+					<li><a href="#"><img src="images/2.jpg" alt="img02"/></a></li>
+					<li><a href="#"><img src="images/3.jpg" alt="img03"/></a></li>
+					<li><a href="#"><img src="images/4.jpg" alt="img04"/></a></li>
+					<li><a href="#"><img src="images/5.jpg" alt="img05"/></a></li>
+				</ul>
+			</div>
+			<div class="top2-bar">
+				<div class="page-container">
+					<div class="ui grid" style="position:relative; height:100%">
+						<div class="ten wide column" style="height:100%">
+							<div class="ui grid">
+								<div class="four wide column" style="padding-top:0"><h3>Image</h3></div>
+								<div class="twelve wide column" style=";padding-top:0;padding-bottom:0">
+									<h3>Huge Loft in Prime Williamsburg!</h3>
+									<p>Brooklyn, NY, United States</p>
+								</div>
+								<div class="four wide column">Kelsi</div>
+								<div class="twelve wide column">
+									<div class="ui grid">
+										<div class="four wide column">Private Room</div>
+										<div class="four wide column">2 Guests</div>
+										<div class="four wide column">1 Bedroom</div>
+										<div class="four wide column">1 Bed</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="six wide column" style="height:100%">
+							<div class="ui grid" style="margin-top:0.7%">
+								<div class="six wide column" style="padding:0;padding-top:2%;padding-bottom:2%">Check in</div>
+								<div class="six wide column" style="padding:0;padding-top:2%;padding-bottom:2%">Check out</div>
+								<div class="four wide column" style="padding:0;padding-top:2%;padding-bottom:2%">Guests</div>
+								<div class="six wide column" style="padding:0"><input type="text"></div>
+								<div class="six wide column" style="padding:0"><input type="text"></div>
+								<div class="four wide column" style="padding:0"><input type="text"></div>
+								<div class="sixteen wide column"><button style="width:75%;background:#e00007;color:#fff;border-radius:0;border-color: #e00007; box-shadow: 0px 0px 0px 2px #e00007 inset !important;">Request To Book</button></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<h3>About Listing</h3>
+			<p>Beautiful converted factory a block from the water in the heart of all the Williamsburg bustle. 	High ceilings, exposed bricks, plenty of plants, and friendly welcoming hosts to help you enjoy your stay. Welcome to Brooklyn!Beautiful converted factory a block from the water in the heart of all the Williamsburg bustle. 	High ceilings, exposed bricks, plenty of plants, and friendly welcoming hosts to help you enjoy your stay. Welcome to Brooklyn!</p>
+			<h3><a href="">Contact Host</a></h3>
+			<img src="images/1.jpg" class="content_img">
+			<p style="float:right">Verified Photo</p>
+			<hr>
+			<div class="ui grid">
+				<div class="four wide column">The Space</div>
+				<div class="six wide column">
+					<div class="ui grid">
+						<div class="sixteen wide column type">Bed type: <b>Real Bed</b></div>
+						<div class="sixteen wide column type">Property type: <b>Loft</b></div>
+						<div class="sixteen wide column type">Accommodates: <b>2</b></div>
+						<div class="sixteen wide column type">Bedrooms: <b>1</b></div>
+					</div>
+				</div>
+				<div class="six wide column">
+					<div class="ui grid">
+						<div class="sixteen wide column type">Bathrooms: <b>1</b></div>
+						<div class="sixteen wide column type">Beds: <b>1</b></div>
+						<div class="sixteen wide column type">Check In: <b>3:00 PM</b></div>
+						<div class="sixteen wide column type">Check Out <b>12:00 PM</b></div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="ui grid">
+				<div class="four wide column">The Price</div>
+				<div class="six wide column">
+					<div class="ui grid">
+						<div class="sixteen wide column type">Extra People: <b>No charge</b></div>
+						<div class="sixteen wide column type">Cleaning Fee <b>Rs. 1547</b></div>
+					</div>
+				</div>
+				<div class="six wide column">
+					<div class="ui grid">
+						<div class="sixteen wide column type">Cancellation: <b style="color:red">Strict</b></div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="ui grid">
+				<div class="four wide column">Description</div>
+				<div class="twelve wide column" style="padding-left:0">
+					<h3 style="margin-top:0">The Space</h3>
+					<p>Beautiful, unique space, with 20' ceilings, exposed brick, and lovely lady roommates.Our guests are welcome to their room and the entire common area - kitchen, bathroom, the works!</p>
+					<p>If you like to cook we've got oodles of cool kitchen gadgets. If you like to drink, we've got all the bitters, shakers, muddlers and ice cubes you could ask for.We're all busy bees and spend relatively little daytime at home during the week. </p>
+					<p>In the evening one or two of us may be around, and we love to get to know our guests, but we're not intrusive, and happy to give you all the space you need. But if you'd like to join in for a beer or glass of wine, we'll be sure to offer you one!</p>
+					<p>Williamsburg is one stop from the big bad city, but a cozy little neighborhood all of its own.It's totally self sufficient, and a wonderful place to live and visit.Movie theatres, galleries, restaurants, bars, bowling allies, rooftops are all mere blocks away.The L train which will take you through the middle of Manahattan, or further east to Bushwick is a 5 minute walk.</p>
+				</div>
+			</div>
+			<hr>
+			<div class="ui grid">
+				<div class="four wide column">House Rules</div>
+				<div class="twelve wide column" style="padding-left:0">
+					<p style="margin-top:0">It's a non smoking apartment, but we're on the ground floor, so it's an easy walk to your nicotine fix!</p>
+				</div>
+			</div>
+			<hr>
+			<div class="ui grid">
+				<div class="four wide column">Availabilty</div>
+				<div class="twelve wide column" style="padding-left:0">
+					<p style="margin-top:0">Maximum Stay: <b>3 nights</b></p>
+				</div>
+			</div>
+		</div>
+		<div class="review-container" style="background:white">
+			<div class="content">
+				<div class="ui grid">
+					<div class="sixteen wide column" style="padding-left:0">
+						<p>9 Reviews 5 stars</p>
+					</div>
+					<div class="four wide column" style="padding:0">Summary</div>
+					<div class="six wide column" style="padding:0">
+						<div class="ui grid">
+							<div class="eight wide column" style="padding-bottom:0">Accuracy</div>
+							<div class="eight wide column" style="padding-bottom:0">5 stars</div>
+							<div class="eight wide column" style="padding-bottom:0">Communication</div>
+							<div class="eight wide column" style="padding-bottom:0">5 stars</div>
+							<div class="eight wide column" style="padding-bottom:0">Cleanliness</div>
+							<div class="eight wide column" style="padding-bottom:0">5 stars</div>
+						</div>
+					</div>
+					<div class="six wide column" style="padding:0">
+						<div class="ui grid">
+							<div class="eight wide column" style="padding-bottom:0">Location</div>
+							<div class="eight wide column" style="padding-bottom:0">5 stars</div>
+							<div class="eight wide column" style="padding-bottom:0">CheckIn</div>
+							<div class="eight wide column" style="padding-bottom:0">5 stars</div>
+							<div class="eight wide column" style="padding-bottom:0">Value</div>
+							<div class="eight wide column" style="padding-bottom:0">5 stars</div>
+						</div>
+					</div>
+				</div>
+					<!-- <h1 style="color:white">make it invisible</h1> -->
+					<hr>
+				<div class="reviews">
+					<div class="ui grid">
+						<div class="four wide column" style="padding-left:0">
+							<h3>put an image</h3>
+						</div>
+						<div class="twelve wide column" style="padding-left:0">
+							<p>I had a wonderful stay at Kelsi's place. The room and bed were comfortable, the location perfect and its a great jumping off point to explore Williamsburg and the city in general. Good people, beautiful, unique home and good vibes all around. Recommend it without hesitation.</p>
+						</div>
+					</div>
+					<hr class="rev">
+					<div class="ui grid">
+						<div class="four wide column" style="padding-left:0">
+							<h3>put an image</h3>
+						</div>
+						<div class="twelve wide column" style="padding-left:0">
+							<p>I had a wonderful stay at Kelsi's place. The room and bed were comfortable, the location perfect and its a great jumping off point to explore Williamsburg and the city in general. Good people, beautiful, unique home and good vibes all around. Recommend it without hesitation.</p>
+						</div>
+					</div>
+					<hr class="rev">
+					<div class="ui grid">
+						<div class="four wide column" style="padding-left:0">
+							<h3>put an image</h3>
+						</div>
+						<div class="twelve wide column" style="padding-left:0">
+							<p>I had a wonderful stay at Kelsi's place. The room and bed were comfortable, the location perfect and its a great jumping off point to explore Williamsburg and the city in general. Good people, beautiful, unique home and good vibes all around. Recommend it without hesitation.</p>
+						</div>
+					</div>
+					<hr class="rev">
+					<div class="ui grid">
+						<div class="four wide column" style="padding-left:0">
+							<h3>put an image</h3>
+						</div>
+						<div class="twelve wide column" style="padding-left:0">
+							<p>I had a wonderful stay at Kelsi's place. The room and bed were comfortable, the location perfect and its a great jumping off point to explore Williamsburg and the city in general. Good people, beautiful, unique home and good vibes all around. Recommend it without hesitation.</p>
+						</div>
+					</div>
+					<hr class="rev" style="margin-bottom:0">
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="contain">
+			<div id="map-canvas"></div>
+		</div>
+			
+		<div class="similar_listing">
+			<div class="ui grid" style="width:70%;margin:auto">
+				<div class="four wide column listing" style="background:red"></div>
+				<div class="four wide column listing" style="background:green"></div>
+				<div class="four wide column listing" style="background:yellow"></div>
+				<div class="four wide column listing" style="background:blue"></div>
+			</div>
+		</div>
+		<div class="footer">
+			
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.cbpFWSlider.min.js"></script>
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpFWSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease'
+				}
+				- destroy:
+				$( selector ).cbpFWSlider( 'destroy' );
+				*/
+
+				$( '.cbp-fwslider1' ).cbpFWSlider();
+
+			} );
+		</script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
